@@ -1,0 +1,56 @@
+.tic-tac-toe {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    height: 100px;
+    background-color: #d0e9ff;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: #b8b8b8;
+  }
+  .X {
+    color: #d32f2f;
+  }
+  
+  .O {
+    color: #1976d2;
+  }
+  
+  .winner-message {
+    margin-top: 20px;
+  }
+  
+  .winner-message p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1565c0;
+  }
+  
